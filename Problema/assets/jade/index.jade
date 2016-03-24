@@ -1,0 +1,64 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Future Imperfect
+        link(href="assets/css/bootstrap.min.css" rel="stylesheet")
+        link(rel="stylesheet" href="assets/css/font-awesome.min.css")
+        link(href="assets/css/main.css" rel="stylesheet")
+        link(rel="stylesheet" href="assets/js/jquery.min.js")
+        link(href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css')
+    body
+        header.container-fluid
+            nav.navbar(role="navigation")
+                .navbar-header
+                    button.navbar-toggle.collapsed( type="button", data-toggle="collapse", data-target="#navbar-inverse", aria-expanded="false", aria-controls="navbar")
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href="#") Future Imperfect
+                #navbar-inverse.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar.left
+                        li.active: a(href="#") Home&nbsp&nbsp&nbsp&nbsp  |
+                        li: a(href="#about") About us&nbsp&nbsp&nbsp&nbsp  |
+                        li: a(href="#Services") Services&nbsp&nbsp&nbsp&nbsp |
+                        li: a(href="#galleries") Galleries&nbsp&nbsp&nbsp&nbsp  |
+                        li: a(href="#contact") Contact
+                    button.navbar-right.btn
+                        i.fa.fa-search
+        section#main_header
+            .tittle_area.text-center
+                .img-header
+                        .hexa0
+                            .before
+                                .after
+                .text-tittle 
+                    h1 FUTURE IMPERFECT
+                    h3 ANOTHER FINE RESPONSIVE SITE TEMPLATE BY HRML5 UP
+            .container
+                .rows
+                    .col-md-9
+                        h2 MAGNA SED ADIPISCING
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    .col-md-3
+                        h4 NOVEMBER 1, 2015
+                        p JANE DOE
+                           img.jane(src="images/avatar.jpg")
+                .row
+                    img(src="images/pic01.jpg")
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonsunt in culpa qui officia deserunt mollit anim id est laborum.
+                    button CONTINUE READING
+                    .coments
+                        p.pull-right General | 
+                            i.fa.fa-heart
+                            span  28 | 
+                            i.fa.fa-comment
+                            span  128
+            nav
+               ul.actions.pagination
+                li
+                    a.disabled.button.big.previous(href='') <  Previous Page
+                li
+                    a.button.big.next(href='#') Next Page  >

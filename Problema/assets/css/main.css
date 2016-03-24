@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*IMPORTS*/
+/*MIXINS*/
+/*VARIABLES*/
+/*CABEZERA DE LA P├üGINA*/
+header {
+  margin-bottom: -9px; }
+
+section#main_header {
+  background-color: #F4F4F4; }
+  section#main_header h1 {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: bolder; }
+  section#main_header h3 {
+    font-size: 17px;
+    color: #878787;
+    font-weight: lighter;
+    padding-bottom: 43px;
+    padding-top: 20px; }
+  section#main_header .img-header {
+    padding-top: 34px; }
+    section#main_header .img-header .hexa0 {
+      overflow: hidden;
+      transform: rotate(120deg);
+      height: 120px;
+      width: 70px;
+      visibility: hidden;
+      position: relative;
+      left: 46%; }
+      section#main_header .img-header .hexa0 .before {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        transform: rotate(-60deg); }
+        section#main_header .img-header .hexa0 .before .after {
+          height: 100%;
+          width: 100%;
+          visibility: visible;
+          transform: rotate(-60deg);
+          background-image: url("../../images/logo.jpg");
+          background-position: center; }
+  section#main_header .rows .col-md-9 {
+    border-bottom: 3px solid #EEEEEE;
+    border-right: 3px solid #EEEEEE;
+    padding-bottom: 36px;
+    margin-left: -11px;
+    padding-left: 150px;
+    padding-top: 17px; }
+    section#main_header .rows .col-md-9 h2 {
+      padding-top: 24px;
+      font-family: Raleway;
+      font-weight: bolder; }
+    section#main_header .rows .col-md-9 p {
+      padding-bottom: 33px;
+      font-family: Raleway;
+      text-transform: uppercase;
+      color: #A4A4A; }
+  section#main_header .rows .col-md-3 {
+    border-bottom: 3px solid rgba(220, 204, 204, 0.28);
+    padding-bottom: 90px; }
+    section#main_header .rows .col-md-3 h4 {
+      font-size: 13px;
+      font-weight: bolder;
+      margin-top: 51px;
+      margin-left: 94px; }
+    section#main_header .rows .col-md-3 p {
+      color: #968C8C;
+      padding-left: 135px;
+      font-weight: bolder;
+      text-decoration: underline; }
+    section#main_header .rows .col-md-3 .jane {
+      width: 32%;
+      float: right;
+      padding: -20px;
+      border-radius: 37px; }
+  section#main_header .row {
+    background-color: white;
+    margin-bottom: 68px;
+    border: 4px solid #F0F0F0;
+    padding-bottom: 39px; }
+    section#main_header .row p {
+      padding-left: 152px;
+      width: 84%;
+      padding-left: 155px;
+      width: 86.8%;
+      font-size: 16px;
+      color: #A78C8C; }
+    section#main_header .row button {
+      background-color: transparent;
+      border: 2px solid rgba(128, 128, 128, 0.33);
+      color: rgba(80, 70, 70, 0.98);
+      font-weight: bolder;
+      font-size: 12px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-left: 154px;
+      margin-top: 25px; }
+    section#main_header .row .coments p {
+      padding-left: 708px;
+      margin-top: -33px;
+      font-size: 12px;
+      text-transform: uppercase; }
+    section#main_header .row img {
+      margin-top: 45px;
+      padding-left: 154px;
+      padding-bottom: 40px; }
+  section#main_header nav {
+    padding-left: 499px;
+    margin-top: -44px;
+    margin-bottom: -39px; }
+    section#main_header nav a {
+      text-transform: uppercase;
+      color: #484646;
+      font-weight: bolder;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 50px;
+      padding-left: 50px; }
+
+/*FUENTE GENERAL Y NAVBARS*/
+body {
+  font-family: Raleway, sans-serif; }
+
+.container-fluid {
+  background-color: white; }
+  .container-fluid .navbar {
+    margin-bottom: 1px; }
+  .container-fluid .navbar-header a.navbar-brand {
+    color: #3B3A3A;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-right: 2px solid rgba(220, 204, 204, 0.28);
+    padding-bottom: 13px;
+    font-size: 12px; }
+  .container-fluid #navbar-inverse .navbar-nav > li > a {
+    color: #A1A1A1;
+    text-transform: uppercase;
+    font-size: 12px; }
+  .container-fluid #navbar-inverse .navbar-right {
+    background-color: transparent; }
+    .container-fluid #navbar-inverse .navbar-right .fa {
+      color: rgba(165, 155, 155, 0.39);
+      font-size: 20px;
+      margin-top: -56px;
+      padding-bottom: 18px;
+      padding-top: 58px;
+      padding-left: 24px;
+      border-left: 2px solid rgba(220, 204, 204, 0.28); }
+
+/*# sourceMappingURL=main.css.map */

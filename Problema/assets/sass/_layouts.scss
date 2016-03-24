@@ -1,0 +1,45 @@
+/*FUENTE GENERAL Y NAVBARS*/
+body {
+    font-family:$font ,sans-serif;
+}
+
+.container-fluid {
+    background-color: white;
+
+    .navbar {
+        margin-bottom: 1px;
+    }
+
+    .navbar-header {
+        a.navbar-brand {
+            color: #3B3A3A;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-right: 2px solid rgba(220, 204, 204, 0.28);
+            padding-bottom: 13px;
+            font-size: 12px;
+        }
+    }
+
+    #navbar-inverse {
+        .navbar-nav > li > a {
+            color: #A1A1A1;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .navbar-right {
+            background-color: transparent;
+
+            .fa {
+                color: rgba(165, 155, 155, 0.39);
+                font-size: 20px;
+                margin-top: -56px;
+                padding-bottom: 18px;
+                padding-top: 58px;
+                padding-left: 24px;
+                border-left: 2px solid rgba(220, 204, 204, 0.28);
+            }
+        }
+    }
+}
